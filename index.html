@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tonie</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">TONIE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="ctn">Contact</a></li>
+        </ul>
+        <img src="images/menubar.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Colorful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+                <div class="col">
+                    <img src="images/img1.webp" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>JWNJHIEIENJNJNJUCkndcjn</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/img1.webp" alt="">
+                    <h4>Uniport Camp Trek</h4>
+                    <p>JWNJHIEIENJNJNJUCkndcjn</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img1.webp" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>JWNJHIEIENJNJNJUCkndcjn</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/img1.webp" alt="">
+                <h4>Uniport Camp Trek</h4>
+                <p>JWNJHIEIENJNJNJUCkndcjn</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+    </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>uHUHYUHEHIEJENEJK</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="sammy">
+        <div class="title">
+            <h1>About Me</h1>
+            <div class="line"></div>
+            <p>I'm a Passionate Backend Developer and Technical Writer interested in building APIs with Nodejs, Express.js and MongoDB.
+                 I'm also a talented Public Speaker with experience in speaking at a number of Tech events.
+                  As a Community-driven individual, I have experience in leading and organizing Tech events, 
+                  WorkShops, and Hackathons. I led the Google Developer Student Club in University of Port Harcourt, 
+                  in the year 2018-2019.</p>
+        </div>
+    </section>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+            <div class="contact-box">
+                <form>
+                    <input type="text" class="input-field" autofocus placeholder="Enter your Name"> 
+                    <input type="email" class="input-field" autofocus placeholder="Enter your Email"> 
+                    <input type="text" class="input-field" autofocus placeholder="Subject">
+                    <textarea type="text" class="input-field textarea-field" autofocus placeholder="Your Message"></textarea> 
+                    <button type="button" class="btn ctn">Submit</button>
+                </form>
+            </div>
+    </section>
+
+    <section class="footer">
+        <p>jwucheujedje</p>
+        <p>ikxjujwhywebdey</p>
+        <p>jxnsuhuwhui</p>
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+
+        })
+    </script>
+</body>
+</html>
